@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>E-LEAGUE PRO V3.3 - ADMIN EDITION</title>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
@@ -47,6 +48,7 @@
         <div class="loader mb-4 scale-150 border-t-cyber-blue"></div>
         <p class="text-white font-bold animate-pulse tracking-widest text-xs">RECONNECTING...</p>
     </div>
+
     <div id="lobbyScreen" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#020408] bg-hero-pattern bg-cover bg-center">
         <div class="absolute inset-0 bg-black/80 backdrop-blur-sm"></div>
         <div class="glass w-full max-w-md p-8 rounded-[2.5rem] shadow-2xl relative z-10 border-t border-white/10">
@@ -107,8 +109,8 @@
             
             <p id="msg" class="text-center text-red-500 text-xs mt-4 hidden font-bold bg-red-500/10 py-2 rounded-lg"></p>
         </div>
-
     </div>
+
     <div id="mainApp" class="hidden min-h-screen flex flex-col bg-hero-pattern bg-fixed bg-cover bg-center">
         <div class="absolute inset-0 bg-[#020408]/90 pointer-events-none"></div>
         <nav class="fixed top-0 w-full z-40 pt-4 px-4 pb-10 bg-gradient-to-b from-[#020408] to-transparent pointer-events-none transition-all duration-300">
@@ -212,8 +214,8 @@
                 </div>
             </section>
         </main>
-
     </div>
+
     <div id="clubModal" class="fixed inset-0 z-[60] hidden bg-[#020408]/95 flex items-center justify-center p-4 backdrop-blur-md">
         <div class="bg-[#0f172a] w-full max-w-4xl h-[85vh] rounded-[2rem] flex flex-col border border-white/10 shadow-2xl overflow-hidden animate-slide-down">
             <div class="p-6 border-b border-white/5 flex justify-between items-center bg-black/20">
@@ -237,6 +239,7 @@
             </div>
         </div>
     </div>
+
     <div id="scoreModal" class="fixed inset-0 z-[70] hidden bg-black/90 flex items-center justify-center p-6 backdrop-blur-xl">
         <div class="bg-[#1a1a1a] w-full max-w-sm p-8 rounded-[2.5rem] text-center border border-white/10 shadow-2xl animate-slide-down relative">
             <button onclick="closeScoreModal()" class="absolute top-6 right-6 text-gray-600 hover:text-white"><i class="fas fa-times text-lg"></i></button>
