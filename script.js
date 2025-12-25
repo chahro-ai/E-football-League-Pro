@@ -1,4 +1,4 @@
-// Tailwind Config
+// Tailwind Configuration
 tailwind.config = {
     theme: {
         extend: {
@@ -30,6 +30,7 @@ tailwind.config = {
 const SB_URL = 'https://hhbarpamxnystjccvfum.supabase.co';
 const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhoYmFycGFteG55c3RqY2N2ZnVtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjYxMjk1NTksImV4cCI6MjA4MTcwNTU1OX0.QJ6cE08RmVJ_r693TCAKmBL9bGCj6MwXHV2U9gNlDoU';
 const sb = supabase.createClient(SB_URL, SB_KEY);
+
 // State Management
 let state = {
     user: localStorage.getItem('eleague_user') || '',
